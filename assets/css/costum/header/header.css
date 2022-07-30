@@ -1,0 +1,14 @@
+.header{
+    width : 65%;
+    position: sticky;
+    top : 0;
+    border-top-left-radius: 1rem;
+    border-top-right-radius : 1rem;
+    border-bottom: 0.2rem solid rgb(228, 228, 228);
+    
+}
+.header-txt{
+    text-align: center;
+    padding : 0.8rem 0;
+    font-size : 2.5rem;
+}

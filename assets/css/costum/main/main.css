@@ -1,0 +1,85 @@
+
+.main{
+    width : 65%;
+    height : 85%;
+    padding  : 2.5rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius : 1rem;
+    overflow: auto;
+    direction : ltr;
+}
+/* local scrollbar of menu-wrapper */
+.main::-webkit-scrollbar{
+    width : 0.6rem;
+}
+.main::-webkit-scrollbar-thumb{
+    background-color: rgb(148, 148, 148);
+    border-radius : 0.8rem;
+}
+
+/* menu-wrapper */
+.menu-wrapper{
+    width : 100%;
+    direction: rtl;
+}
+
+/* food-wrapper styles */
+.food-wrapper{
+    width : 49.2%;
+    height : 10rem;
+    direction : rtl;
+    border-radius : 0.3rem;
+
+}
+.food-wrapper:last-child{
+    flex-grow: 0;
+}
+.foodImage-wrapper{
+    width : 11rem;
+    height : 100%;
+}
+.foodImage{
+    width : 100%;
+    height : 100%;
+}
+.foodInfo{
+    padding :0.5rem;
+
+}
+.nameFood{
+    font-size: 1.7rem;
+}
+.priceFood,
+.sumPrice-wrapper,
+.quantity-ordered{
+    font-size : 1.5rem;
+    color :rgb(53, 53, 53);
+}
+
+.quantityOrdered-wrapper{
+    width : 7rem;
+    height : 2rem;
+}
+.add-btn,
+.reduce-btn{
+    all : unset;
+    width : 2rem;
+    height : 100%;
+    cursor : pointer;
+}
+.add-btn{
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+}
+.reduce-btn{
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+}
+.addImage,
+.reduceImage{
+    width: 50%;
+    height: 50%;
+}
+.quantity-ordered{
+    height : 100%;
+}

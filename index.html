@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+    <meta name="author" content="sara abotalebi">
+    <meta name="description" content="bill-generator">
+    <meta name="keywords" content="learning-js">
+    <title>bill-generator</title>
+    <!-- link font-awesome for inserting icon-->
+    <script src="https://kit.fontawesome.com/883799682a.js" crossorigin="anonymous"></script>
+    <!-- link styles -->
+    <link rel="stylesheet" href="./assets/css/library/utilsStyle.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/costum/style.css" type="text/css">
+</head>
+
+<body>
+
+    <div class="content d-flex f-flow-column-wrap justify-content-f-start align-items-f-start align-content-spaceBetween">
+
+        <header class="header d-flex f-flow-column bg-gray">
+            <h1 class="header-txt">رستوران مک دونالد شعبه تهران</h1>
+        </header>
+
+        <main class="main f-grow-1 bg-gray">
+            <div class="menu-wrapper d-flex f-flow-row-wrap justify-content-f-start gap-1"></div>
+        </main>
+
+
+        <footer class="footer d-flex f-flow-column bg-gray gap-1">
+
+            <div class="sumPriceOrders-wrapper d-flex justify-content-space-between">
+                <span>جمع کل سفارشات:‌</span>
+                <div>
+                    <span class="sumPriceOrders">0</span>تومان
+                </div>
+            </div>
+            <div class="fee-wrapper d-flex justify-content-space-between">
+                <span>حق سرویس و کارمزد:</span>
+                <div>
+                    <span class="fee">0</span>تومان
+                </div>
+            </div>
+            <div class="discount-wrapper d-flex justify-content-space-between">
+                <span>تخفیف:</span>
+                <div>
+                    <span class="discount">0</span>درصد
+                </div>
+            </div>
+            <div class="discountCode-wrapper">
+                <form class="discountCode-form d-flex justify-content-space-between">
+                    <input type="text" class="discountCode-input f-grow-1 bg-white" placeholder="کد تخفیف">
+                    <button type="submit" class="discountCode-btn bg-red">&#10003;</button>
+                </form>
+            </div>
+            <div class="amountPayable-wrapper d-flex justify-content-space-between">
+                <span>مبلغ قابل پرداخت:</span>
+                <div>
+                    <span class="amountPayable">0</span>تومان
+                </div>
+            </div>
+            <form class="submit-orders d-flex justify-content-space-between">
+                <button type="submit" class="submit-btn bg-red">ثبت سفارش</button>
+            </form>
+        </footer>
+    </div>
+    <div class="pop-up-box">
+        <div class="pop-up d-flex f-direction-column align-items-center justify-content-space-between bg-gray">
+            <span class="pop-up-txt">سفارش شما با موفقیت ثبت شد.</span>
+            <button class="pop-up-btn bg-red">باشه</button>
+        </div>
+    </div>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
